@@ -45,3 +45,11 @@ console.log(sixth)
 // oi element delete hoye gese ekhon jodi access korte chai 
 
 console.log(sixth[1])
+
+// 7
+const fu = undefined;
+console.log(fu);
+
+// 8
+const myoj = {name:'samad', profession: null}
+console.log(myoj.profession)
