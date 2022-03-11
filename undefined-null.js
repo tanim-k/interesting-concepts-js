@@ -50,6 +50,27 @@ console.log(sixth[1])
 const fu = undefined;
 console.log(fu);
 
+
 // 8
 const myoj = {name:'samad', profession: null}
 console.log(myoj.profession)
+// const colors = {mango: 'green', grapes: 'black', organe: 'yellow'};
+// console.log(colors[grapes])
+
+// const b=6 , b=6
+// console.log(b);
+const p = '';
+console.log(Map.p);
+
+// const name = 'Hero';const age = 34;
+// const person = {name, age}; console.log(person);
+
+const adventurer = { name: 'Alice',cat: {name: 'Lucy'} };
+const ratName = adventurer?.rat?.name;
+console.log(ratName)
+
+let person =null;
+console.log(person ? person : "person is null");
+
+const obj = {a:1};
+console.log(Object.keys(obj).length===0);
